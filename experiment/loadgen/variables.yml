@@ -1,0 +1,4 @@
+ingress: 0
+egress: 1
+
+warm_up: 0
