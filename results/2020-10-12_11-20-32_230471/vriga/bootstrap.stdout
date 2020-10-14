@@ -1,0 +1,259 @@
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/postools
+copying postools/__init__.py -> build/lib.linux-x86_64-2.7/postools
+copying postools/postools.py -> build/lib.linux-x86_64-2.7/postools
+creating build/lib.linux-x86_64-2.7/postools/lib
+copying postools/lib/__init__.py -> build/lib.linux-x86_64-2.7/postools/lib
+copying postools/lib/configuration.py -> build/lib.linux-x86_64-2.7/postools/lib
+copying postools/lib/default_configuration.py -> build/lib.linux-x86_64-2.7/postools/lib
+copying postools/lib/rest_api.py -> build/lib.linux-x86_64-2.7/postools/lib
+copying postools/lib/variable.py -> build/lib.linux-x86_64-2.7/postools/lib
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting cli/pos_set_variable -> build/scripts-2.7
+copying and adjusting cli/pos_energy -> build/scripts-2.7
+copying and adjusting cli/pos_run_rest_blocking -> build/scripts-2.7
+copying and adjusting cli/pos_kill -> build/scripts-2.7
+copying and adjusting cli/pos_timesync -> build/scripts-2.7
+copying and adjusting cli/pos_wait -> build/scripts-2.7
+copying and adjusting cli/pos_heartbeat -> build/scripts-2.7
+copying and adjusting cli/pos_upload -> build/scripts-2.7
+copying and adjusting cli/pos_download -> build/scripts-2.7
+copying and adjusting cli/pos_run -> build/scripts-2.7
+copying and adjusting cli/pos_get_variable -> build/scripts-2.7
+copying and adjusting cli/pos_sync -> build/scripts-2.7
+changing mode of build/scripts-2.7/pos_set_variable from 644 to 755
+changing mode of build/scripts-2.7/pos_energy from 644 to 755
+changing mode of build/scripts-2.7/pos_run_rest_blocking from 644 to 755
+changing mode of build/scripts-2.7/pos_kill from 644 to 755
+changing mode of build/scripts-2.7/pos_timesync from 644 to 755
+changing mode of build/scripts-2.7/pos_wait from 644 to 755
+changing mode of build/scripts-2.7/pos_heartbeat from 644 to 755
+changing mode of build/scripts-2.7/pos_upload from 644 to 755
+changing mode of build/scripts-2.7/pos_download from 644 to 755
+changing mode of build/scripts-2.7/pos_run from 644 to 755
+changing mode of build/scripts-2.7/pos_get_variable from 644 to 755
+changing mode of build/scripts-2.7/pos_sync from 644 to 755
+running install
+running bdist_egg
+running egg_info
+creating postools.egg-info
+writing requirements to postools.egg-info/requires.txt
+writing postools.egg-info/PKG-INFO
+writing top-level names to postools.egg-info/top_level.txt
+writing dependency_links to postools.egg-info/dependency_links.txt
+writing manifest file 'postools.egg-info/SOURCES.txt'
+reading manifest file 'postools.egg-info/SOURCES.txt'
+writing manifest file 'postools.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/postools
+creating build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib.linux-x86_64-2.7/postools/lib/variable.py -> build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib.linux-x86_64-2.7/postools/lib/rest_api.py -> build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib.linux-x86_64-2.7/postools/lib/default_configuration.py -> build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib.linux-x86_64-2.7/postools/lib/configuration.py -> build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib.linux-x86_64-2.7/postools/lib/__init__.py -> build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib.linux-x86_64-2.7/postools/postools.py -> build/bdist.linux-x86_64/egg/postools
+copying build/lib.linux-x86_64-2.7/postools/__init__.py -> build/bdist.linux-x86_64/egg/postools
+byte-compiling build/bdist.linux-x86_64/egg/postools/lib/variable.py to variable.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/lib/rest_api.py to rest_api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/lib/default_configuration.py to default_configuration.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/lib/configuration.py to configuration.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/lib/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/postools.py to postools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_sync -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_get_variable -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_run -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_download -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_upload -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_heartbeat -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_wait -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_timesync -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_kill -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_run_rest_blocking -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_energy -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/pos_set_variable -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_sync to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_get_variable to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_run to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_download to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_upload to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_heartbeat to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_wait to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_timesync to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_kill to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_run_rest_blocking to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_energy to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_set_variable to 755
+copying postools.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying postools.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying postools.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying postools.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying postools.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/postools-1.4.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing postools-1.4.0-py2.7.egg
+Copying postools-1.4.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding postools 1.4.0 to easy-install.pth file
+Installing pos_heartbeat script to /usr/local/bin
+Installing pos_sync script to /usr/local/bin
+Installing pos_timesync script to /usr/local/bin
+Installing pos_upload script to /usr/local/bin
+Installing pos_get_variable script to /usr/local/bin
+Installing pos_wait script to /usr/local/bin
+Installing pos_set_variable script to /usr/local/bin
+Installing pos_run script to /usr/local/bin
+Installing pos_download script to /usr/local/bin
+Installing pos_kill script to /usr/local/bin
+Installing pos_energy script to /usr/local/bin
+Installing pos_run_rest_blocking script to /usr/local/bin
+
+Installed /usr/local/lib/python2.7/dist-packages/postools-1.4.0-py2.7.egg
+Processing dependencies for postools==1.4.0
+Searching for requests==2.21.0
+Best match: requests 2.21.0
+Adding requests 2.21.0 to easy-install.pth file
+
+Using /usr/lib/python2.7/dist-packages
+Finished processing dependencies for postools==1.4.0
+running build
+running build_py
+creating build/lib
+creating build/lib/postools
+copying postools/__init__.py -> build/lib/postools
+copying postools/postools.py -> build/lib/postools
+creating build/lib/postools/lib
+copying postools/lib/__init__.py -> build/lib/postools/lib
+copying postools/lib/configuration.py -> build/lib/postools/lib
+copying postools/lib/default_configuration.py -> build/lib/postools/lib
+copying postools/lib/rest_api.py -> build/lib/postools/lib
+copying postools/lib/variable.py -> build/lib/postools/lib
+running build_scripts
+creating build/scripts-3.7
+copying and adjusting cli/pos_set_variable -> build/scripts-3.7
+copying and adjusting cli/pos_energy -> build/scripts-3.7
+copying and adjusting cli/pos_run_rest_blocking -> build/scripts-3.7
+copying and adjusting cli/pos_kill -> build/scripts-3.7
+copying and adjusting cli/pos_timesync -> build/scripts-3.7
+copying and adjusting cli/pos_wait -> build/scripts-3.7
+copying and adjusting cli/pos_heartbeat -> build/scripts-3.7
+copying and adjusting cli/pos_upload -> build/scripts-3.7
+copying and adjusting cli/pos_download -> build/scripts-3.7
+copying and adjusting cli/pos_run -> build/scripts-3.7
+copying and adjusting cli/pos_get_variable -> build/scripts-3.7
+copying and adjusting cli/pos_sync -> build/scripts-3.7
+changing mode of build/scripts-3.7/pos_set_variable from 644 to 755
+changing mode of build/scripts-3.7/pos_energy from 644 to 755
+changing mode of build/scripts-3.7/pos_run_rest_blocking from 644 to 755
+changing mode of build/scripts-3.7/pos_kill from 644 to 755
+changing mode of build/scripts-3.7/pos_timesync from 644 to 755
+changing mode of build/scripts-3.7/pos_wait from 644 to 755
+changing mode of build/scripts-3.7/pos_heartbeat from 644 to 755
+changing mode of build/scripts-3.7/pos_upload from 644 to 755
+changing mode of build/scripts-3.7/pos_download from 644 to 755
+changing mode of build/scripts-3.7/pos_run from 644 to 755
+changing mode of build/scripts-3.7/pos_get_variable from 644 to 755
+changing mode of build/scripts-3.7/pos_sync from 644 to 755
+running install
+running bdist_egg
+running egg_info
+writing postools.egg-info/PKG-INFO
+writing dependency_links to postools.egg-info/dependency_links.txt
+writing requirements to postools.egg-info/requires.txt
+writing top-level names to postools.egg-info/top_level.txt
+reading manifest file 'postools.egg-info/SOURCES.txt'
+writing manifest file 'postools.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/postools
+creating build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib/postools/lib/variable.py -> build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib/postools/lib/rest_api.py -> build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib/postools/lib/default_configuration.py -> build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib/postools/lib/configuration.py -> build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib/postools/lib/__init__.py -> build/bdist.linux-x86_64/egg/postools/lib
+copying build/lib/postools/postools.py -> build/bdist.linux-x86_64/egg/postools
+copying build/lib/postools/__init__.py -> build/bdist.linux-x86_64/egg/postools
+byte-compiling build/bdist.linux-x86_64/egg/postools/lib/variable.py to variable.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/lib/rest_api.py to rest_api.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/lib/default_configuration.py to default_configuration.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/lib/configuration.py to configuration.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/lib/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/postools.py to postools.cpython-37.pyc
+byte-compiling build/bdist.linux-x86_64/egg/postools/__init__.py to __init__.cpython-37.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_sync -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_get_variable -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_run -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_download -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_upload -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_heartbeat -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_wait -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_timesync -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_kill -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_run_rest_blocking -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_energy -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/pos_set_variable -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_sync to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_get_variable to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_run to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_download to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_upload to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_heartbeat to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_wait to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_timesync to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_kill to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_run_rest_blocking to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_energy to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/pos_set_variable to 755
+copying postools.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying postools.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying postools.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying postools.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying postools.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating 'dist/postools-1.4.0-py3.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing postools-1.4.0-py3.7.egg
+Copying postools-1.4.0-py3.7.egg to /usr/local/lib/python3.7/dist-packages
+Adding postools 1.4.0 to easy-install.pth file
+Installing pos_download script to /usr/local/bin
+Installing pos_energy script to /usr/local/bin
+Installing pos_get_variable script to /usr/local/bin
+Installing pos_heartbeat script to /usr/local/bin
+Installing pos_kill script to /usr/local/bin
+Installing pos_run script to /usr/local/bin
+Installing pos_run_rest_blocking script to /usr/local/bin
+Installing pos_set_variable script to /usr/local/bin
+Installing pos_sync script to /usr/local/bin
+Installing pos_timesync script to /usr/local/bin
+Installing pos_upload script to /usr/local/bin
+Installing pos_wait script to /usr/local/bin
+
+Installed /usr/local/lib/python3.7/dist-packages/postools-1.4.0-py3.7.egg
+Processing dependencies for postools==1.4.0
+Searching for requests==2.21.0
+Best match: requests 2.21.0
+Adding requests 2.21.0 to easy-install.pth file
+
+Using /usr/lib/python3/dist-packages
+Finished processing dependencies for postools==1.4.0

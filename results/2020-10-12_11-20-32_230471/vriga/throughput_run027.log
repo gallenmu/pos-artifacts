@@ -1,0 +1,86 @@
+[1;37m[INFO]  Initializing DPDK. This will take a few seconds...[0m
+EAL: Probing VFIO support...
+EAL: WARNING: cpu flags constant_tsc=yes nonstop_tsc=no -> using unreliable clock cycles !
+EAL: PCI device 0000:00:03.0 on NUMA socket -1
+EAL:   Invalid NUMA socket, default to 0
+EAL:   probe driver: 1af4:1000 net_virtio
+EAL: PCI device 0000:00:04.0 on NUMA socket -1
+EAL:   Invalid NUMA socket, default to 0
+EAL:   probe driver: 1af4:1000 net_virtio
+EAL: PCI device 0000:00:05.0 on NUMA socket -1
+EAL:   Invalid NUMA socket, default to 0
+EAL:   probe driver: 1af4:1000 net_virtio
+[1;37m[INFO]  Found 2 usable devices:[0m
+   Device 0: 52:54:00:C9:E4:6A ([0;32mRed Hat, Inc Virtio network device[0m)
+   Device 1: 52:54:00:47:12:15 ([0;32mRed Hat, Inc Virtio network device[0m)
+[1;37m[INFO]  Waiting for devices to come up...[0m
+[1;37m[INFO]  Device 1 (52:54:00:47:12:15) is up: 10000 MBit/s[0m
+[1;37m[INFO]  Device 0 (52:54:00:C9:E4:6A) is up: 10000 MBit/s[0m
+[1;37m[INFO]  [0;32m2 devices are up.[0m[0m
+[1;37m[INFO]  Trying to enable rx timestamping of all packets, this isn't supported by most nics[0m
+[1;36m[Device: id=0] RX[0m: 0.1202 Mpps, 65.36 Mbit/s (84.59 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2773 Mpps, 168.61 Mbit/s (212.98 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0858 Mpps, 46.66 Mbit/s (60.39 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2765 Mpps, 168.14 Mbit/s (212.39 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0621 Mpps, 33.80 Mbit/s (43.74 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2862 Mpps, 174.01 Mbit/s (219.81 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0920 Mpps, 50.04 Mbit/s (64.76 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2800 Mpps, 170.26 Mbit/s (215.07 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0744 Mpps, 40.45 Mbit/s (52.35 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2741 Mpps, 166.68 Mbit/s (210.54 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0757 Mpps, 41.19 Mbit/s (53.31 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2859 Mpps, 173.81 Mbit/s (219.55 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0542 Mpps, 29.48 Mbit/s (38.15 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2800 Mpps, 170.23 Mbit/s (215.03 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0602 Mpps, 32.74 Mbit/s (42.37 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2792 Mpps, 169.74 Mbit/s (214.41 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0494 Mpps, 26.90 Mbit/s (34.81 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2788 Mpps, 169.48 Mbit/s (214.08 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0505 Mpps, 27.46 Mbit/s (35.54 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2825 Mpps, 171.75 Mbit/s (216.94 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0460 Mpps, 25.02 Mbit/s (32.38 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2743 Mpps, 166.75 Mbit/s (210.63 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0468 Mpps, 25.47 Mbit/s (32.96 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2851 Mpps, 173.37 Mbit/s (218.99 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0417 Mpps, 22.71 Mbit/s (29.39 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2623 Mpps, 159.48 Mbit/s (201.44 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0403 Mpps, 21.92 Mbit/s (28.36 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2822 Mpps, 171.60 Mbit/s (216.75 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0425 Mpps, 23.12 Mbit/s (29.92 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2341 Mpps, 142.30 Mbit/s (179.75 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0658 Mpps, 35.80 Mbit/s (46.32 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.3414 Mpps, 207.56 Mbit/s (262.19 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0414 Mpps, 22.54 Mbit/s (29.18 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2701 Mpps, 164.24 Mbit/s (207.46 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0401 Mpps, 21.79 Mbit/s (28.20 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2590 Mpps, 157.45 Mbit/s (198.89 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0403 Mpps, 21.95 Mbit/s (28.41 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.3108 Mpps, 188.99 Mbit/s (238.73 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0755 Mpps, 41.05 Mbit/s (53.13 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2661 Mpps, 161.79 Mbit/s (204.37 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0422 Mpps, 22.94 Mbit/s (29.68 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2162 Mpps, 131.46 Mbit/s (166.06 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0887 Mpps, 48.26 Mbit/s (62.45 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.3095 Mpps, 188.19 Mbit/s (237.72 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0392 Mpps, 21.31 Mbit/s (27.57 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.3185 Mpps, 193.62 Mbit/s (244.58 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0412 Mpps, 22.43 Mbit/s (29.03 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2834 Mpps, 172.34 Mbit/s (217.69 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0452 Mpps, 24.57 Mbit/s (31.79 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2856 Mpps, 173.66 Mbit/s (219.36 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0699 Mpps, 38.04 Mbit/s (49.23 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2744 Mpps, 166.81 Mbit/s (210.71 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0633 Mpps, 34.43 Mbit/s (44.56 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2262 Mpps, 137.54 Mbit/s (173.73 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0839 Mpps, 45.63 Mbit/s (59.06 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.3241 Mpps, 197.07 Mbit/s (248.93 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0590 Mpps, 32.08 Mbit/s (41.52 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.2963 Mpps, 180.12 Mbit/s (227.52 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0813 Mpps, 44.24 Mbit/s (57.25 Mbit/s with framing)
+21
+[0;34m[Device: id=1] TX[0m: 0.2371 Mpps, 144.14 Mbit/s (182.07 Mbit/s with framing)
+[1;36m[Device: id=0] RX[0m: 0.0031 Mpps, 1.69 Mbit/s (2.18 Mbit/s with framing)
+[0;34m[Device: id=1] TX[0m: 0.0000 Mpps, 0.00 Mbit/s (0.00 Mbit/s with framing)
+8400000
+[1;36m[Device: id=0] RX[0m: 0.0567 (StdDev 0.0198) Mpps, 30.86 (StdDev 11) Mbit/s (39.93 Mbit/s with framing), total 1821888 packets with 123888384 bytes (incl. CRC)
+[0;34m[Device: id=1] TX[0m: 0.2693 (StdDev 0.0577) Mpps, 163.75 (StdDev 35) Mbit/s (206.85 Mbit/s with framing), total 8400000 packets with 638400000 bytes (incl. CRC)
