@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Script is run locally on experiment server.
+
+# exit on error
+set -e
+# # log every command
+set -x
+
+MOONGEN_DIR=$(pos_get_variable moongen_dir --from-global)
+PKT_RATE=$(pos_get_variable pkt_rate --from-loop)
+PKT_SZ=$(pos_get_variable pkt_sz --from-loop)
+INGRESS=$(pos_get_variable ingress)
+EGRESS=$(pos_get_variable egress)
+FREQ=$(pos_get_variable --from-loop cpu_frequency)
+
+# set frequency
+cpupower frequency-set -u ${FREQ}MHz
+
+echo "receive/send packets with size: $PKT_SZ and rate: $PKT_RATE at CPU freq: $FREQ."
+
+pos_run --loop dut -- "$MOONGEN_DIR"/libmoon/build/libmoon "$MOONGEN_DIR"/libmoon/examples/l2-forward.lua $EGRESS $INGRESS
+
+pos_sync
+sleep 1
+pos_sync
+
+pos_kill --loop dut
+
+echo "experiment successful"

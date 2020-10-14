@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Script is run locally on experiment server.
+
+# exit on error
+set -e
+# # log every command
+set -x
+
+MOONGEN_DIR=$(pos_get_variable moongen_dir --from-global)
+PKT_RATE=$(pos_get_variable pkt_rate --from-loop)
+PKT_SZ=$(pos_get_variable pkt_sz --from-loop)
+INGRESS=$(pos_get_variable ingress)
+EGRESS=$(pos_get_variable egress)
+
+echo "send packets with size: $PKT_SZ and rate: $PKT_RATE."
+
+pos_sync
+
+pos_run --loop loadgen -- "$MOONGEN_DIR"/build/MoonGen "$MOONGEN_DIR"/examples/l2-load-latency.lua --pktrate $PKT_RATE --pktsize $PKT_SZ $EGRESS $INGRESS
+sleep 30
+pos_kill --loop loadgen
+pos_upload --loop throughput-rx.csv
+pos_upload --loop throughput-tx.csv
+pos_upload --loop histogram.csv
+
+pos_sync
+
+echo "experiment successful"

@@ -1,0 +1,53 @@
+[1;37m[INFO]  Initializing DPDK. This will take a few seconds...[0m
+EAL: Probing VFIO support...
+EAL: PCI device 0000:04:00.0 on NUMA socket 0
+EAL:   probe driver: 8086:15ac net_ixgbe
+EAL: PCI device 0000:04:00.1 on NUMA socket 0
+EAL:   probe driver: 8086:15ac net_ixgbe
+EAL: PCI device 0000:07:00.0 on NUMA socket 0
+EAL:   probe driver: 8086:1533 net_e1000_igb
+EAL: PCI device 0000:08:00.0 on NUMA socket 0
+EAL:   probe driver: 8086:1533 net_e1000_igb
+EAL: PCI device 0000:0b:00.0 on NUMA socket 0
+EAL:   probe driver: 8086:1521 net_e1000_igb
+EAL: PCI device 0000:0b:00.1 on NUMA socket 0
+EAL:   probe driver: 8086:1521 net_e1000_igb
+EAL: PCI device 0000:0b:00.2 on NUMA socket 0
+EAL:   probe driver: 8086:1521 net_e1000_igb
+EAL: PCI device 0000:0b:00.3 on NUMA socket 0
+EAL:   probe driver: 8086:1521 net_e1000_igb
+[1;37m[INFO]  Found 7 usable devices:[0m
+   Device 0: AC:1F:6B:7C:88:62 ([0;32mIntel Corporation Ethernet Connection X552 10 GbE SFP+[0m)
+   Device 1: AC:1F:6B:7C:88:63 ([0;32mIntel Corporation Ethernet Connection X552 10 GbE SFP+[0m)
+   Device 2: AC:1F:6B:7C:7E:4B ([0;32mIntel Corporation I210 Gigabit Network Connection[0m)
+   Device 3: AC:1F:6B:7C:7E:4C ([0;32mIntel Corporation I350 Gigabit Network Connection[0m)
+   Device 4: AC:1F:6B:7C:7E:4D ([0;32mIntel Corporation I350 Gigabit Network Connection[0m)
+   Device 5: AC:1F:6B:7C:7E:4E ([0;32mIntel Corporation I350 Gigabit Network Connection[0m)
+   Device 6: AC:1F:6B:7C:7E:4F ([0;32mIntel Corporation I350 Gigabit Network Connection[0m)
+PMD: ixgbe_dev_link_status_print(): Port 1: Link Up - speed 0 Mbps - half-duplex
+PMD: ixgbe_dev_link_status_print(): Port 0: Link Up - speed 0 Mbps - half-duplex
+[1;37m[INFO]  Waiting for devices to come up...[0m
+[1;37m[INFO]  Device 1 (AC:1F:6B:7C:88:63) is up: 10000 MBit/s[0m
+[1;37m[INFO]  Device 0 (AC:1F:6B:7C:88:62) is up: 10000 MBit/s[0m
+[1;37m[INFO]  [0;32m2 devices are up.[0m[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+[1;33m[WARN]  Failed to timestamp packet on transmission[0m
+Samples: 0, Average: nan ns, StdDev: 0.0 ns, Quartiles: nan/nan/nan ns
+[1;37m[INFO]  Saving histogram to 'histogram.csv'[0m

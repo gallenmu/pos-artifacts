@@ -1,0 +1,1 @@
+['/root/moongen/build/MoonGen', '/root/moongen/examples/l2-load-latency.lua', '--pktrate', '1', '--pktsize', '256', '1', '0']

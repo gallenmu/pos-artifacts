@@ -1,0 +1,1 @@
+['bash', '-c', '/root/moongen/build/MoonGen /root/moongen/examples/soft-gen.lua --src-mac 52:54:00:78:0a:20 --dst-mac 52:54:00:80:0a:22 --src-ip 10.0.1.23 --dst-ip 10.0.0.20 --fix-packetrate 180000 --size 64 --packets 5400000 --ip-chksum 1 --warm-up 0 1 0 > /root/throughput.log']
