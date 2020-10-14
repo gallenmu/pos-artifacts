@@ -1,0 +1,64 @@
+\documentclass[tikz]{standalone}
+
+\usepackage[utf8]{inputenc}
+\usepackage{tumcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+
+\pgfplotsset{
+    table/search path={data/},
+}
+
+\usepackage[binary-units=true]{siunitx}                                                                                                 
+\sisetup{%                                                                                                              
+        per-mode = symbol-or-fraction,                                                                                  
+        math-micro = \ensuremath\mu,                                                                                    
+%       text-rm=\fontsize{.9em}{1em}\selectfont,                                                                        
+}                                                                                                                       
+\DeclareSIUnit\byte{B}                                                                                                  
+\DeclareSIUnit\bit{bit}                                                                                                 
+\DeclareSIUnit\packets{pkts}                                                                                            
+\DeclareSIUnit\packet{pkt}                                                                                              
+\DeclareSIUnit\pps{pps}
+
+\begin{document}%
+% This file was created by tikzplotlib v0.9.4.
+\begin{tikzpicture}
+
+
+\begin{axis}[
+height=5cm,
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, at={(1,0.5)}, anchor=west, draw=white!80!black},
+minor xtick={},
+minor ytick={},
+tick align=outside,
+tick pos=left,
+width=10cm,
+x grid style={white!69.0196078431373!black},
+xlabel={pkt\_rate},
+xmajorgrids,
+xmin=-4500, xmax=314500,
+xtick style={color=black},
+xtick={-50000,0,50000,100000,150000,200000,250000,300000,350000},
+y grid style={white!69.0196078431373!black},
+ylabel={Average Packet Rate [Mpps]},
+ymajorgrids,
+ymin=0, ymax=0.3132925,
+ytick style={color=black},
+ytick={0,0.05,0.1,0.15,0.2,0.25,0.3,0.35}
+]
+\addplot [line width=1pt, TUMBlue, mark=x, mark size=3, mark options={solid}]
+table {%
+data/user_201012_112032_230471_pkt_sz-256-loop_avg_mpps-000.tsv};
+\addlegendentry{T-0-rx}
+\addplot [line width=1pt, TUMOrange, mark=x, mark size=3, mark options={solid}]
+table {%
+data/user_201012_112032_230471_pkt_sz-256-loop_avg_mpps-001.tsv};
+\addlegendentry{T-1-tx}
+\end{axis}
+
+\end{tikzpicture}
+
+\end{document}
