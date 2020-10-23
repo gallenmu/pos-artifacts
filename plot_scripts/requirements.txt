@@ -1,4 +1,4 @@
-tikzplotlib==0.8.7
+tikzplotlib==0.9.4
 nbstripout==0.3.7
 jupyterlab==2.0.1
 import_ipynb
