@@ -163,6 +163,7 @@ def create_experiments():
 
             # svgs
             svgs = glob.glob('figures/' + experiment_id + '*.svg')
+            print("The generated plots were written to: " + svgs)
             content += par_template.substitute(content='') # empty paragraph to avoid first-of application to next paragraph
             figure_template = Template(FIGURE_TEMPLATE)
             for svg in svgs:
@@ -231,6 +232,7 @@ def create_experiments():
         i += 1
 
 create_experiments()
+
 
 #print(EXPERIMENT_PATH)
 #print(RESULT_PATHS)
