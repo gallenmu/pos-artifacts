@@ -42,13 +42,13 @@ echo "reboot experiment hosts..."
 wait
 
 echo "setup experiment hosts..."
-{ pos commands launch --infile loadgen/setup.sh --blocking "$1"; } &
-{ pos commands launch --infile dut/setup.sh --blocking "$2"; } &
+{ pos commands launch --quiet --infile loadgen/setup.sh --blocking "$1"; } &
+{ pos commands launch --quiet --infile dut/setup.sh --blocking "$2"; } &
 wait
 
 echo "execute experiment on hosts..."
-{ pos commands launch --infile loadgen/measurement.sh --blocking --loop "$1"; } &
-{ pos commands launch --infile dut/measurement.sh --blocking --loop "$2"; } &
+{ pos commands launch --quiet --infile loadgen/measurement.sh --blocking --loop "$1"; } &
+{ pos commands launch --quiet --infile dut/measurement.sh --blocking --loop "$2"; } &
 wait
 
 echo "free hosts"
