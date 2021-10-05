@@ -2,15 +2,15 @@ moongen_repo: https://github.com/gallenmu/MoonGen
 moongen_repo_commit: e56bb072d8892e3d5c288dec5aa8e0540cc17eb8
 moongen_dir: /root/moongen
 
-loadgen_ingress_dev: 0
-loadgen_egress_dev: 1
+loadgen_ingress_dev: 1
+loadgen_egress_dev: 0
 loadgen_ingress_if: 'ens4'
 loadgen_egress_if: 'ens5'
 loadgen_ingress_mac: '52:54:00:78:0a:23'
 loadgen_egress_mac: '52:54:00:78:0a:20'
 loadgen_ingress_ip: '10.0.0.20'
 loadgen_egress_ip: '10.0.1.23'
-loadgen_enable_ip_sw_chksum_calc: 0
+loadgen_enable_ip_sw_chksum_calc: 1
 
 dut_ingress_if: 'ens4'
 dut_egress_if: 'ens5'
