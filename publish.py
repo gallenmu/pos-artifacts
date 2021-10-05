@@ -7,6 +7,7 @@ from string import Template
 import subprocess
 import distutils.core
 import sys
+from string import Template
 
 parser = argparse.ArgumentParser(description='Pos publisher publishes pos experiments')
 parser.add_argument('-x', '--experiment_path', required=True,
@@ -232,8 +233,22 @@ def create_experiments():
 
         i += 1
 
-create_experiments()
+def configure_gitio_url(gitrepo):
+    split = gitrepo.split('/')
+    reponame = split[-1]
+    username = split[-2]
+    if len(reponame) == 0:
+        sys.exit("reponame empty")
+    if len(username) == 0:
+        sys.exit("username empty")
+    with open('_config.yml', 'r') as fil:
+        src = Template(fil.read())
+        result = src.substitute({'gitio_url': f"https://{username}.github.io/{reponame}/"})
+    with open('_config.yml', 'w') as fil:
+        fil.write(result)
 
+create_experiments()
+configure_gitio_url(args.git_repo)
 
 #print(EXPERIMENT_PATH)
 #print(RESULT_PATHS)
