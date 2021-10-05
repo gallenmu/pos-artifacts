@@ -25,7 +25,6 @@ LOADGEN_EGRESS_IP=$(pos_get_variable --from-global loadgen_egress_ip)
 #ip addr add $LOADGEN_INGRESS_IP/24  dev $LOADGEN_INGRESS_IF
 #ip addr add $LOADGEN_EGRESS_IP/24 dev $LOADGEN_EGRESS_IF
 
-apt-get update
 git clone "$MOONGEN_REPO" "$MOONGEN_DIR"
 cd "$MOONGEN_DIR"
 git checkout "$MOONGEN_REPO_COMMIT"
