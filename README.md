@@ -13,8 +13,8 @@ The artifacts contain:
 
 ## Content
 
-The experiment and its results are containd in the following folders.
-To fully document the actual experiments all artifacts listed below must be released.
+The experiment and its results are contained in the following folders.
+To fully document the actual experiments, all artifacts listed below must be released.
 
 * `./experiment`: Experiment scripts to be executed on the pos management host
 * `./results`: Measurement results of the executed experiment
@@ -29,9 +29,9 @@ The associated website uses the following files:
 * `publish.py`: Website generation script
 
 For the website to work, the content of the `ìnclude` and `web` folder, the `_config.yml` and the `ìndex.html` must be added to a repository.
-The `./template` folder and `publish.py` file are only used for website generation, publication of these files is not required for the website to work.
+The `./template` folder and `publish.py` file are only used for website generation; publication of these files is not required for the website to work.
 However, publication is recommended to allow others to easily create their own website.
 
-## Howto use the tools
+## How to use the tools
 
 We created a [website](https://gallenmu.github.io/pos-artifacts) that explains how to reproduce this experiment.
