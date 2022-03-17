@@ -1,5 +1,5 @@
 moongen_repo: https://github.com/gallenmu/MoonGen
-moongen_repo_commit: e56bb072d8892e3d5c288dec5aa8e0540cc17eb8
+moongen_repo_commit: af8c79edf62447fb387e729b637b1e8ff135bb0f
 moongen_dir: /root/moongen
 
 loadgen_ingress_dev: 1
