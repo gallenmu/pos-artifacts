@@ -20,6 +20,7 @@ LOADGEN_EGRESS_MAC=$(pos_get_variable --from-global loadgen_egress_mac)
 LOADGEN_INGRESS_IP=$(pos_get_variable --from-global loadgen_ingress_ip)
 LOADGEN_EGRESS_IP=$(pos_get_variable --from-global loadgen_egress_ip)
 LOADGEN_ENABLE_IP_SW_CHKSUM_CALC=$(pos_get_variable --from-global loadgen_enable_ip_sw_chksum_calc)
+LOADGEN_ENABLE_OFFLOAD=$(pos_get_variable --from-global loadgen_enable_offload)
 
 LOADGEN_WARM_UP=$(pos_get_variable warm_up)
 
@@ -34,7 +35,7 @@ echo "send packets with size: $PKT_SZ and rate: $PKT_RATE."
 
 pos_sync
 
-pos_run --loop loadgen -- bash -c "$MOONGEN_DIR/build/MoonGen $MOONGEN_DIR/examples/soft-gen.lua --src-mac $LOADGEN_EGRESS_MAC --dst-mac $DUT_INGRESS_MAC --src-ip $LOADGEN_EGRESS_IP --dst-ip $LOADGEN_INGRESS_IP --fix-packetrate $PKT_RATE --size $PKT_SZ --packets $PKTS_TOTAL --ip-chksum $LOADGEN_ENABLE_IP_SW_CHKSUM_CALC --warm-up $LOADGEN_WARM_UP $LOADGEN_EGRESS_DEV $LOADGEN_INGRESS_DEV > /root/throughput.log"
+pos_run --loop loadgen -- bash -c "$MOONGEN_DIR/build/MoonGen $MOONGEN_DIR/examples/soft-gen.lua --src-mac $LOADGEN_EGRESS_MAC --dst-mac $DUT_INGRESS_MAC --src-ip $LOADGEN_EGRESS_IP --dst-ip $LOADGEN_INGRESS_IP --fix-packetrate $PKT_RATE --size $PKT_SZ --packets $PKTS_TOTAL --chksum-offload $LOADGEN_ENABLE_OFFLOAD --ip-chksum $LOADGEN_ENABLE_IP_SW_CHKSUM_CALC --warm-up $LOADGEN_WARM_UP $LOADGEN_EGRESS_DEV $LOADGEN_INGRESS_DEV > /root/throughput.log"
 
 sleep 50
 
